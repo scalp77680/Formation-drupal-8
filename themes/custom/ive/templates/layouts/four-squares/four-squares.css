@@ -1,0 +1,26 @@
+.four-squares {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 50%;
+  min-height:300px;
+  box-sizing:border-box;
+}
+
+.square:nth-child(1) {
+  background-color: yellow;
+}
+
+.square:nth-child(2) {
+  background-color: green;
+}
+
+.square:nth-child(3) {
+  background-color: pink;
+}
+
+.square:nth-child(4) {
+  background-color: red;
+}

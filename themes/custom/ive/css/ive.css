@@ -1,0 +1,71 @@
+#header {
+    background-color: #fff;
+    background-image: none;
+    /*background: #fff;*/
+}
+
+.region-header,
+.region-header a,
+.region-header li a.is-active,
+.site-branding__text, .site-branding,
+.site-branding__text a, .site-branding a,
+.region-secondary-menu .menu-item a,
+.region-secondary-menu .menu-item a.is-active,
+.path-frontpage .node--view-mode-teaser h2 a {
+    color: orange;
+}
+
+.site-branding__name {
+    font-size: 2rem;
+}
+
+.path-frontpage .node--view-mode-teaser h2 {
+  font-size: 3em;
+  font-family:'Impact';
+}
+
+.sidebar .block {
+  background-color: #fff;
+  border:0;
+}
+
+.sidebar .block > h2{
+  text-transform: uppercase;
+  color: orange;
+  font-style:italic;
+  border-bottom:1px solid orange;
+}
+
+.drupal8 {
+  background-color: orange;
+  text-align: center;
+}
+
+.node .column {
+  float: left;
+  width:50%;
+}
+
+.required {
+  color:red;
+  font-style:italic;
+}
+
+.required:before {
+  content:'(';
+}
+
+.required:after {
+  content:')';
+}
+
+.node--type-article.node--view-mode-full .field--type-image {
+  float: none;
+}
+
+.node .external-link:before {
+  content:url(../images/external-link.gif);
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
